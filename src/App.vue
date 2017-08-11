@@ -4,6 +4,7 @@
       <h1>在Vue中完美的使用高德地图</h1>
       <p>在vue中使用高德地图API，全兼容。</p>
       <a href="https://github.com/zuley/vue-gaode" target="_blank" class="btn">View on GitHub</a>
+      <a href="https://www.rxshc.com" target="_blank" class="btn">By 猪不乐意</a>
     </div>
     <div class="g-wraper">
       <div class="m-part">
@@ -162,7 +163,7 @@ body{ margin: 0; }
 }
 .page-header h1{ margin: 0; font-size: 40px; }
 .page-header p{ color: #ccc; margin: 0; margin-bottom: 30px; }
-.page-header a{ display: inline-block; border: 1px solid #fff; line-height: 40px; padding: 0 20px; border-radius: 4px; color: #fff; text-decoration: none; transition: all .3s; }
+.page-header a{ display: inline-block; border: 1px solid #fff; margin-right: 10px; line-height: 40px; padding: 0 20px; border-radius: 4px; color: #fff; text-decoration: none; transition: all .3s; }
 .page-header a:hover{ background: #fff; color: #333; }
 .g-wraper{ width: 1000px; margin: 0 auto; color: #666; font-size: 16px; line-height: 30px; }
 .m-part{ margin-bottom: 30px; }
