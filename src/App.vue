@@ -6,7 +6,7 @@
       <a href="https://github.com/zuley/vue-gaode" target="_blank" class="btn">View on GitHub</a>
       <a href="https://www.rxshc.com" target="_blank" class="btn">By 猪不乐意</a>
     </div>
-    <div class="g-wraper">
+    <div class="g-wraper" v-hljs>
       <div class="m-part">
         <h3 class="title">拖拽选址 - DEMO</h3>
         <mapDrag @drag="dragMap" class="mapbox"></mapDrag>
@@ -173,7 +173,7 @@ body{ margin: 0; }
 .m-part .info{ margin: 0; padding: 0; list-style: none; line-height: 30px; margin-left: 620px; }
 .m-part .info span{ display: block; color: #999; }
 .m-part ol{ line-height: 40px; margin-left: 0; padding-left: 0; }
-.m-part pre{ border: 1px dashed #ddd; padding: 10px 20px; line-height: 30px; }
+.m-part pre{ padding: 10px 20px; line-height: 30px; border-radius: 3px; box-shadow: 0 0 15px rgba(0,0,0,.5); }
 .m-footer{ background: #eee; line-height: 60px; text-align: center; color: #999; font-size: 12px; }
 .m-footer a{ margin:  0 5px; color: #999; text-decoration: none; }
 </style>
