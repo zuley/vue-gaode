@@ -4,7 +4,7 @@
       <h1>在Vue中完美的使用高德地图</h1>
       <p>在vue中使用高德地图API，全兼容。</p>
       <a href="https://github.com/zuley/vue-gaode" target="_blank" class="btn">View on GitHub</a>
-      <a href="https://www.rxshc.com" target="_blank" class="btn">By 猪不乐意</a>
+      <a href="http://www.rxshc.com" target="_blank" class="btn">By 猪不乐意</a>
     </div>
     <div class="g-wraper" v-hljs>
       <div class="m-part">
