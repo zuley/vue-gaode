@@ -100,19 +100,15 @@ export default {
       })
     }
   },
-  created () {
+  async created () {
     // 已载入高德地图API，则直接初始化地图
     if (window.AMap && window.AMapUI) {
       this.initMap()
     // 未载入高德地图API，则先载入API再初始化
     } else {
-      // 载入高德地图和UI组件
-      Promise.all([
-        remoteLoad(`http://webapi.amap.com/maps?v=1.3&key=${MapKey}`),
-        remoteLoad('http://webapi.amap.com/ui/1.0/main.js')
-      ]).then(() => {
-        this.initMap()
-      })
+      await remoteLoad(`http://webapi.amap.com/maps?v=1.3&key=${MapKey}`)
+      await remoteLoad('http://webapi.amap.com/ui/1.0/main.js')
+      this.initMap()
     }
   }
 }
