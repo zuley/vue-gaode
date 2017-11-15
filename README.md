@@ -4,7 +4,7 @@
 
 而这篇教程的目的就是，**怎么在vue中使用高德地图API**
 
-文档：[http://vue-gaode.rxshc.com](Demo和使用文档)
+文档：[Demo和使用文档](http://vue-gaode.rxshc.com)
 
 ## 运行项目
 ``` s
