@@ -135,7 +135,6 @@ export default {
   },
   methods: {
     dragMap (data) {
-      console.log(data)
       this.dragData = {
         lng: data.position.lng,
         lat: data.position.lat,

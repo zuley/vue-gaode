@@ -18,7 +18,7 @@
       <button type="button" @click="handleSearch">搜索</button>
       <div id="js-result" v-show="searchKey" class="result"></div>
     </div>
-    <div id="js-container" class="map"></div>
+    <div id="js-container" class="map">正在加载数据 ...</div>
   </div>
 </template>
 
